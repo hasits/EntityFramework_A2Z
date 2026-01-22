@@ -1,0 +1,16 @@
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\bin\Debug\net10.0\EntityFrameworkCore.Data.deps.json
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\bin\Debug\net10.0\EntityFrameworkCore.Data.dll
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\bin\Debug\net10.0\EntityFrameworkCore.Data.pdb
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\bin\Debug\net10.0\EntityFrameworkCore.Domain.dll
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\bin\Debug\net10.0\EntityFrameworkCore.Domain.pdb
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.csproj.AssemblyReference.cache
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.AssemblyInfoInputs.cache
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.AssemblyInfo.cs
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.sourcelink.json
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFr.5ED7C83B.Up2Date
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.dll
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\refint\EntityFrameworkCore.Data.dll
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\EntityFrameworkCore.Data.pdb
+C:\Users\itshs\source\repos\EntityFrameWork\Solution\EntityFrameworkCore.Data\obj\Debug\net10.0\ref\EntityFrameworkCore.Data.dll
