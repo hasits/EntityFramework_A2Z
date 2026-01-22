@@ -1,6 +1,7 @@
 ﻿
 using EntityFrameworkCore.Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EntityFrameworkCore.Data
 {
@@ -8,11 +9,24 @@ namespace EntityFrameworkCore.Data
     {
         public DbSet<Team> Teams { get; set; }
         public DbSet<Coach> Coaches { get; set; }
+        public string DbPath { get; private set; }
+
+        public FootballLeageDBContext()
+        {
+            var folder = Environment.SpecialFolder.LocalApplicationData;
+            var path = Environment.GetFolderPath(folder);
+            DbPath = Path.Combine(path, $"FootballLeage_EFCore.db");
+
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer("Data Source=DESKTOP-F69UTG1; Initial Catalog=FootballLeage_EFCore; Encrypt=False;");
-            optionsBuilder.UseSqlite($"Data Source=FootballLeage_EFCore.db");
+            optionsBuilder.UseSqlite($"Data Source={DbPath}")
+                .LogTo(Console.WriteLine, LogLevel.Information)
+                .EnableSensitiveDataLogging()
+                .EnableDetailedErrors();
+                
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
